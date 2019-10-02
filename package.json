@@ -13,7 +13,7 @@
     "plugin"
   ],
   "author": "Alexander Ionov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ocassio/testcafe-reporter-custom/issues"
   },
