@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-custom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TestCafe reporter that allows you to provide your own logic",
   "main": "lib/index.js",
   "repository": {
@@ -18,7 +18,5 @@
     "url": "https://github.com/ocassio/testcafe-reporter-custom/issues"
   },
   "homepage": "https://github.com/ocassio/testcafe-reporter-custom#readme",
-  "dependencies": {
-    "app-root-path": "^2.2.1"
-  }
+  "dependencies": {}
 }
