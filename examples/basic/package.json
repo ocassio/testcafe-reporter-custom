@@ -1,0 +1,16 @@
+{
+  "name": "basic-reporter-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome src -r custom"
+  },
+  "keywords": [],
+  "author": "Alexander Ionov",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.7.1",
+    "testcafe-reporter-custom": "github:ocassio/testcafe-reporter-custom#feature/config-and-ts"
+  }
+}
