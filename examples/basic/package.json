@@ -11,6 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "testcafe": "^1.7.1",
-    "testcafe-reporter-custom": "github:ocassio/testcafe-reporter-custom#feature/config-and-ts"
+    "testcafe-reporter-custom": "*"
   }
 }
