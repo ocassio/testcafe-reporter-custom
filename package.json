@@ -18,8 +18,7 @@
     "url": "https://github.com/ocassio/testcafe-reporter-custom/issues"
   },
   "homepage": "https://github.com/ocassio/testcafe-reporter-custom#readme",
-  "dependencies": {},
-  "optionalDependencies": {
+  "peerDependencies": {
     "ts-node": "^8.5.4",
     "typescript": "^3.7.4"
   }
