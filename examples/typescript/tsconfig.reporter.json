@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "types": [
+            "node"
+        ]
+    },
+    "files": [
+        "reporter/index.ts",
+    ],
+    "include": [
+        "reporter/**/*.ts"
+    ]
+}
