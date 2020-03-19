@@ -10,7 +10,7 @@
   "author": "Alexander Ionov",
   "license": "ISC",
   "devDependencies": {
-    "testcafe": "^1.7.1",
+    "testcafe": "^1.8.3",
     "testcafe-reporter-custom": "*",
     "ts-node": "^8.5.4",
     "tslib": "^1.10.0",
