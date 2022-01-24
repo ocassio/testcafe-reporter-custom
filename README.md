@@ -75,11 +75,12 @@ module.exports = {
 
 Possible options are presented in the table below.
 
-| Option       | Default Value            | Description                                                                                                          |
-| ------------ | ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| `path`       | `'reporter/index.js'`    | Path to your reporter                                                                                                |
-| `tsNodePath` | `'node_modules/ts-node'` | Path to your `ts-node` installation (only used for `*.ts` files)                                                     |
-| `tsOptions`  | `undefined`              | [`ts-node` options](https://github.com/TypeStrong/ts-node#cli-and-programmatic-options) (only used for `*.ts` files) |
+| Option       | Default Value            | Description                                                                                                           |
+| ------------ | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| `path`       | `'reporter/index.js'`    | Path to your reporter.                                                                                                |
+| `module`     | `'commonjs'`             | Whether your reporter uses CommonJS or ES Modules. Possible values are `commonjs` and `module`.                       |
+| `tsNodePath` | `'node_modules/ts-node'` | Path to your `ts-node` installation (only used for `*.ts` files).                                                     |
+| `tsOptions`  | `undefined`              | [`ts-node` options](https://github.com/TypeStrong/ts-node#cli-and-programmatic-options) (only used for `*.ts` files). |
 
 ## TypeScript Usage
 
@@ -115,4 +116,5 @@ module.exports = {
 There is a couple of usage examples available in this repository:
 
 * [Basic](examples/basic)
+* [ES Modules](examples/es-modules)
 * [TypeScript](examples/typescript)
