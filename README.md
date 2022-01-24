@@ -78,7 +78,7 @@ Possible options are presented in the table below.
 | Option       | Default Value            | Description                                                                                                           |
 | ------------ | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
 | `path`       | `'reporter/index.js'`    | Path to your reporter.                                                                                                |
-| `module`     | `'commonjs'`             | Whether your reporter uses CommonJS or ES Modules. Possible values are `commonjs` and `module`.                       |
+| `moduleType` | `'commonjs'`             | Whether your reporter uses CommonJS or ES Modules. Possible values are `commonjs` and `module`.                       |
 | `tsNodePath` | `'node_modules/ts-node'` | Path to your `ts-node` installation (only used for `*.ts` files).                                                     |
 | `tsOptions`  | `undefined`              | [`ts-node` options](https://github.com/TypeStrong/ts-node#cli-and-programmatic-options) (only used for `*.ts` files). |
 
