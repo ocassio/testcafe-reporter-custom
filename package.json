@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-custom",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "TestCafe reporter that allows you to provide your own logic",
   "main": "lib/index.js",
   "repository": {
