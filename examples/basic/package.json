@@ -10,7 +10,7 @@
   "author": "Alexander Ionov",
   "license": "ISC",
   "devDependencies": {
-    "testcafe": "^1.20.1",
+    "testcafe": "^3.5.0",
     "testcafe-reporter-custom": "*"
   }
 }
